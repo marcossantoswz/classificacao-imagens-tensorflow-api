@@ -1,6 +1,14 @@
 # Classificador de Imagens com TensorFlow e FastAPI
 
-Este projeto é um sistema completo de Visão Computacional (Computer Vision) para classificação de imagens. Ele inclui o treinamento de uma Rede Neural Convolucional (CNN) usando TensorFlow/Keras, um script de predição via linha de comando (CLI) e uma API REST construída com FastAPI para colocar o modelo em produção.
+Este repositório contém um estudo inicial de classificação de imagens utilizando redes neurais convolucionais (CNN). O objetivo não é fornecer um modelo de alta precisão para uso comercial, mas sim documentar meu processo de aprendizado com a biblioteca TensorFlow e a exposição de modelos através de APIs simples com FastAPI.
+
+Limitações Conhecidas:
+
+- O modelo foi treinado com um conjunto de dados reduzido e pode apresentar falsos positivos.
+
+- A arquitetura é básica e serve como prova de conceito para o fluxo "Treino -> Exportação -> Deploy".
+
+- Não há tratamento avançado de erros ou camadas de segurança na API.
 
 ## Funcionalidades
 
